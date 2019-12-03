@@ -38,3 +38,8 @@ https://github.com/ossu/data-science
 ## Basics of ML
 
 https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF
+
+## ML Books
+
+To learn maths behind ML algorithms and understand concept
+https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf
