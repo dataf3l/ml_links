@@ -16,3 +16,14 @@ https://www.youtube.com/watch?v=HZ4cvaztQEs&list=PLA89DCFA6ADACE599&index=3
 ## Julia
 https://github.com/JuliaDocs/Julia-Cheat-Sheet
 
+## Neural Network Architectures Videos
+
+https://www.youtube.com/watch?v=oJNHXPs0XDk
+
+
+## Applications of ML
+
+### Prediction
+
+https://teddykoker.com/2019/12/beating-the-odds-machine-learning-for-horse-racing/
+
