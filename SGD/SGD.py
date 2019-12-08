@@ -13,10 +13,10 @@ def DJ(theta,x,y):
 
 def main():
     global Y, X
-    epochs = 10
+    epochs = 10000
           # j=0  j=1
     theta = [0.1, 0.1]
-    alpha = 0.1 # learning rate
+    alpha = 0.001 # learning rate
     loss_values = []
     for epoch in range(0,epochs):
         i = 0
@@ -42,7 +42,7 @@ X = []
 X.append([0,    0])
 X.append([0.2,  0.2])
 X.append([0.6,  0.6])
-X.append([0.8,  0.8])
+X.append([0.81,  0.8])
 X.append([1.0,  1.0])
 
 
@@ -50,7 +50,7 @@ Y = []
 Y.append(0)
 Y.append(0.4)
 Y.append(1.2)
-Y.append(1.6)
+Y.append(1.55)
 Y.append(2.0)
 
 #theta = [1.0, 1.0] # loss should be zero
