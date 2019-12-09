@@ -12,7 +12,7 @@ def DJ(theta,x,y):
     return (h(theta,x)-y) * x_j
 
 # generates points on a circle
-def gen_circ_points(x, y, radius=10):
+def gen_circ_points(x, y, radius=100):
     y_low = y-(radius/2)
     y_high = y+(radius/2)
     arr = []
@@ -37,7 +37,7 @@ def Dif_theta_plot():
             y_list.append(points[1])
         print(x_list)
         print(y_list)
-        plt.plot(x_list, y_list)
+        plt.plot(x_list, y_list, 'bo')
         print("completed one cycle")
         plt.show()
     print("completed")
@@ -50,10 +50,10 @@ def Dif_theta_plot():
 
 def main(theta = [0.1, 0.1]):
     global Y, X
-    epochs = 10
+    epochs = 1000
           # j=0  j=1
     #theta = [0.1, 0.1]
-    alpha = 0.001 # learning rate
+    alpha = 0.01 # learning rate
     loss_values = []
     theta_arr = []
     for epoch in range(0,epochs):
@@ -68,7 +68,7 @@ def main(theta = [0.1, 0.1]):
                 j += 1
             i += 1
         #print(theta)
-        theta_arr.append(theta)
+        theta_arr.append([theta[0], theta[1]])
         loss = J(theta,X,Y)
         #print("LOSS:",loss)
         loss_values.append(loss)
