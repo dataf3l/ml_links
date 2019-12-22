@@ -23,7 +23,6 @@ def gen_circ_points(x, y, radius=100):
 
 def Dif_theta_plot():
     theta_start_arr = gen_circ_points(5, 5, 8)
-    #print theta_start_arr
     # take each theta run model on it get points and plot on a single graph
     for theta in theta_start_arr:
         theta_plots = main(list(theta))
@@ -48,12 +47,17 @@ def Dif_theta_plot():
 # make another plotter class which plots the points 
 
 
+class SchoasticGD:
+
+  def __init__(self, theta)
+
+
 def main(theta = [0.1, 0.1]):
     global Y, X
-    epochs = 1000
+    epochs = 20
           # j=0  j=1
     #theta = [0.1, 0.1]
-    alpha = 0.01 # learning rate
+    alpha = 0.1 # learning rate
     loss_values = []
     theta_arr = []
     for epoch in range(0,epochs):
