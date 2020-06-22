@@ -43,3 +43,37 @@ https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2Gf
 
 To learn maths behind ML algorithms and understand concept
 https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf
+
+
+## On Complex Numbers and ML
+
+https://medium.com/intuitionmachine/should-deep-learning-use-complex-numbers-edbd3aac3fb8
+
+
+## NLP
+
+https://github.com/dair-ai/nlp_newsletter
+
+
+### BERT
+
+Bert stuff
+https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+https://jalammar.github.io/
+
+https://jalammar.github.io/illustrated-bert/
+https://jalammar.github.io/illustrated-transformer/
+
+
+https://medium.com/@infoecho/dcnet-denoising-dna-sequence-with-a-lstm-rnn-and-pytorch-3b454ff727e7
+
+
+https://nlp.seas.harvard.edu/2018/04/03/attention.html
+
+https://github.com/google-research/bert/commits?author=jacobdevlin-google
+https://github.com/google-research/bert
+
+
+https://www.blog.google/products/search/search-language-understanding-bert
+
+
